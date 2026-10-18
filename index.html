@@ -1,0 +1,109 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#100b20">
+    <title>Pixel Clash | Rock Paper Scissors</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div class="arcade-glow glow-one"></div>
+    <div class="arcade-glow glow-two"></div>
+
+    <main class="arcade">
+        <header class="cabinet-header">
+            <p class="eyebrow">★ PLAYER ONE VS CPU ★</p>
+            <h1>PIXEL <span>CLASH</span></h1>
+            <p class="subtitle">ROCK / PAPER / SCISSORS</p>
+            <div class="header-line"></div>
+        </header>
+
+        <section class="status-bar">
+            <span class="status-light"></span>
+            <span id="game-status">INSERT YOUR SKILL</span>
+            <span class="status-round" id="round-count">ROUND 1 / 5</span>
+        </section>
+
+        <section class="scoreboard" aria-label="Scoreboard">
+            <div class="player-panel">
+                <span class="player-icon">♟</span>
+                <p class="player-label">PLAYER 01</p>
+                <strong id="human-score">00</strong>
+                <span class="score-caption">YOUR SCORE</span>
+            </div>
+
+            <div class="versus">VS</div>
+
+            <div class="player-panel cpu-panel">
+                <span class="player-icon">▣</span>
+                <p class="player-label">CPU PLAYER</p>
+                <strong id="computer-score">00</strong>
+                <span class="score-caption">CPU SCORE</span>
+            </div>
+        </section>
+
+        <section class="battle-area">
+            <div class="section-heading">
+                <span>01</span>
+                <h2>CHOOSE YOUR WEAPON</h2>
+                <span>▼</span>
+            </div>
+
+            <div class="choices">
+                <button class="choice-card rock" data-choice="rock" type="button">
+                    <span class="card-top">ITEM 01</span>
+                    <span class="item-art" aria-hidden="true">✊</span>
+                    <span class="item-name">ROCK</span>
+                    <span class="item-detail">HEAVY HITTER</span>
+                </button>
+
+                <button class="choice-card paper" data-choice="paper" type="button">
+                    <span class="card-top">ITEM 02</span>
+                    <span class="item-art" aria-hidden="true">▤</span>
+                    <span class="item-name">PAPER</span>
+                    <span class="item-detail">COVER MOVE</span>
+                </button>
+
+                <button class="choice-card scissors" data-choice="scissors" type="button">
+                    <span class="card-top">ITEM 03</span>
+                    <span class="item-art" aria-hidden="true">✂</span>
+                    <span class="item-name">SCISSORS</span>
+                    <span class="item-detail">QUICK STRIKE</span>
+                </button>
+            </div>
+            <p class="helper-text">SELECT A CARD TO START THE ROUND</p>
+        </section>
+
+        <section class="battle-result" aria-live="polite">
+            <div class="result-icon" id="result-icon">★</div>
+            <div class="result-copy">
+                <p class="result-label" id="result-label">READY PLAYER ONE</p>
+                <h2 id="result-title">LET'S BATTLE!</h2>
+                <p id="result-message">Choose your move to begin.</p>
+            </div>
+        </section>
+
+        <section class="log-panel">
+            <div class="log-heading">
+                <h2>GAME HISTORY</h2>
+                <span id="rounds-played">0 / 5 PLAYED</span>
+            </div>
+            <div id="log-list" class="log-list">
+                <p class="empty-log">YOUR BATTLES WILL APPEAR HERE...</p>
+            </div>
+        </section>
+
+        <button id="restart-button" class="restart-button" type="button" hidden>
+            ↻ &nbsp; PLAY AGAIN
+        </button>
+
+        <footer class="cabinet-footer">
+            <span>PIXEL CLASH ARCADE</span>
+            <span>PLAYER 1 &nbsp; • &nbsp; BEST OF 5</span>
+        </footer>
+    </main>
+</body>
+</html>
