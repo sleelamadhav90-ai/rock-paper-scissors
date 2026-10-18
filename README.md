@@ -1,21 +1,21 @@
 # 🎮 Rock Paper Scissors — Pixel Clash
 
-A retro arcade-style Rock Paper Scissors game built with HTML, CSS, and JavaScript. Challenge the computer in a neon-inspired interface with 3D button effects and a five-round scoring system.
+A retro arcade-style Rock Paper Scissors game built using HTML, CSS, and JavaScript.
 
 ## 🚀 Live Demo
 
-**Play the game:** [Pixel Clash](https://sleelamadhav90-ai.github.io/rock-paper-scissors/)
+[Play Pixel Clash](https://sleelamadhav90-ai.github.io/rock-paper-scissors/)
 
 ## ✨ Features
 
-- 🕹️ Retro arcade-inspired interface
-- 🎨 Neon styling and 3D hover effects
-- ✊ Rock, 📄 Paper, and ✂️ Scissors choices
-- 🤖 Computer-generated moves
-- 🏆 Five-round scoring system
-- 📊 Scoreboard and game history
-- 🔄 Restart button to play again
-- 📱 Responsive layout
+- Retro arcade-inspired design
+- Neon colors and 3D button effects
+- Rock, Paper, and Scissors gameplay
+- Computer-generated moves
+- Five-round scoring system
+- Scoreboard and game history
+- Restart button
+- Responsive layout
 
 ## 🛠️ Built With
 
@@ -36,12 +36,12 @@ A retro arcade-style Rock Paper Scissors game built with HTML, CSS, and JavaScri
 
 ## 📚 What I Learned
 
-- Structuring a webpage with HTML
-- Styling layouts and interactive effects with CSS
-- Handling button clicks and game logic with JavaScript
-- Updating webpage content using DOM manipulation
-- Managing project files with Git and GitHub
+- HTML page structure
+- CSS styling and hover effects
+- JavaScript functions and game logic
+- DOM manipulation and event listeners
+- Git and GitHub basics
 
 ## 👨‍💻 Author
 
-GitHub: [@sleelamadhav90-ai](https://github.com/sleelamadhav90-ai)
+[GitHub Profile](https://github.com/sleelamadhav90-ai)
